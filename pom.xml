@@ -89,6 +89,7 @@
 						<excludes>
 							<exclude>mx/edu/uacm/circleci/service/*.class</exclude>
 							<exclude>mx/edu/uacm/circleci/*.class</exclude>
+							<exclude>mx/edu/uacm/circleci/domain/*.class</exclude>
 						</excludes>
 					</instrumentation>
 			    </configuration>
