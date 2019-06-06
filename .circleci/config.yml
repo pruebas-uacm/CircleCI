@@ -34,7 +34,7 @@ jobs:
           key: v1-dependencies-{{ checksum "pom.xml" }}
         
       # run tests!
-      - run: mvn cobertura:cobertura
+      - run: mvn integration-test cobertura:cobertura
 
       - run:
           name: Reports for CodeCov
