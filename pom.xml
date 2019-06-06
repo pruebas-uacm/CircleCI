@@ -85,6 +85,11 @@
 			            <format>xml</format>
 			        </formats>
 			        <check />
+					<instrumentation>
+						<excludes>
+							<exclude>mx/edu/uacm/circleci/service/*.class</exclude>
+						</excludes>
+					</instrumentation>
 			    </configuration>
 			</plugin>
 		</plugins>
